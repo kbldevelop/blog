@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.315);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 30px;
+    
+}
+
+header#cabecalho {
+    background: none;
+    color: black;
+}
+
+header#cabecalho li {
+    font-weight: bolder;
+    display: block;
+    line-height: 1.9em;
+}
+
+
+nav {
+    background-color: rgba(211, 211, 211, 0.649);
+    text-align: right;
+    padding: 10px 30px 10px 0px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.453);
+}
+
+nav > p#paragrafo {
+    position: absolute;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: rgba(255, 0, 0, 0.733);
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+article {
+    padding: 30px;
+    border: 1.5px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.292);
+}
+
+article:hover {
+    background-color: red;
+    color: white;
+    transition: .8s;
+}
+
+article h2 {
+    width: 500px;
+}
+
+article > p {
+    width: 500px;
+    text-align: justify;
+    text-indent: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article > img {
+    width: 500px;
+    
+}
+
+aside {
+    padding: 30px;
+    margin-left: 10px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.292);
+}
+
+aside:hover {
+    background-color: red;
+    color: white;
+    transition: .8s;
+}
+
+aside > h2 {
+    text-align: center;
+}
+
+aside > p {
+    padding: 10px;
+    text-align: center;
+    text-indent: 20px;
+}
+
+aside > img {
+    padding: 20px;
+    display: block;
+    width: 200px;
+    margin: auto;
+    bottom: 0;
+}
+
+footer {
+    background-color: rgba(211, 211, 211, 0.649);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media (max-width: 900px) {
+
+
+    main {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    article {
+        width: 80%;
+        text-align: center;
+    }
+
+    article > h2 {
+        width: 110%;
+    }
+
+    article > p {
+        width: 100%;
+    } 
+
+    article > img {
+        width: 100%;
+    }
+
+    aside {
+        width: 80%;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+
+    aside > img {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
